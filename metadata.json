@@ -1,0 +1,13 @@
+{
+    "name": "Social-Connections",
+    "uri": "Web address for your plugin",
+    "description": "Connect your social accounts to your website",
+    "version": "0.1",
+    "date": "2016-04-07",
+    "author": "Gurjyot Singh",
+    "author_uri": "Web address for plugin author",
+    "license": "GPLv2",
+    "update_uri": "Web address for Q2A to check for updates",
+    "min_q2a": "1.7",
+    "min_php": "5.1"
+}
