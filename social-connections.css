@@ -1,9 +1,53 @@
 .sc1 {
-	background: #34495e;	
-}
-a {
-	text-decoration: none;
+	margin: 5px 0px;
+	background-color: #3498DB;
+	display: inline-block;
+	padding: 8px 10px;
+	width: 100%;
 }
 .sc2{
-	color: Grey;
+	float: right;
+	color: white;
+}
+.sc3 {
+	float: right;
+
+}
+/*.sc3 a:link {
+	padding: 0px 8px;
+	color: white;
+}
+.sc3 a:visited {
+	color: white !important;
+}
+.sc3 a:hover {
+	color: white;
+} */
+.sc3 .facebook-icon {
+	background-image: url(images/social-connections-icons.png);
+	height: 32px !important;
+	width: 32px;
+	background-position: 0 0;
+	/*float: right;*/
+}
+.sc3 .twitter-icon {
+	background-image: url(images/social-connections-icons.png);
+	height: 32px !important;
+	width: 32px;
+	background-position: -32px 0px;
+	/*float: right;*/
+}
+.sc3 .google-icon {
+	background-image: url(images/social-connections-icons.png);
+	height: 32px !important;
+	width: 32px;
+	background-position: -125px 0px;
+	/*float: right;*/
+}
+.sc3 .instagram-icon {
+	background-image: url(images/social-connections-icons.png);
+	height: 32px !important;
+	width: 32px;
+	background-position: -63px 0px;
+	/*float: right;*/
 }
