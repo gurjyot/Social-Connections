@@ -10,34 +10,34 @@
 	color: white;
 }
 .sc3 {
+	display: flex;
 	float: right;
-
 }
 .sc3 .facebook-icon {
 	background-image: url(images/social-connections-icons.png);
 	height: 32px !important;
 	width: 32px;
 	background-position: 0 0;
-	/*float: right;*/
+	padding: 0px 5px;
 }
 .sc3 .twitter-icon {
 	background-image: url(images/social-connections-icons.png);
 	height: 32px !important;
 	width: 32px;
 	background-position: -32px 0px;
-	/*float: right;*/
+	padding: 0px 5px;
 }
 .sc3 .google-icon {
 	background-image: url(images/social-connections-icons.png);
 	height: 32px !important;
 	width: 32px;
 	background-position: -125px 0px;
-	/*float: right;*/
+	padding: 0px 5px;
 }
 .sc3 .instagram-icon {
 	background-image: url(images/social-connections-icons.png);
 	height: 32px !important;
 	width: 32px;
 	background-position: -63px 0px;
-	/*float: right;*/
+	padding: 0px 5px;
 }

@@ -16,11 +16,11 @@ function allow_region($region)
 
 function output_widget($region, $place, $themeobject, $template, $request, $qa_content)
 {
-    echo 	'<div class= "sc1"><div class= "sc2"><span>Connect with us:</span> 
+    echo 	'<div class= "sc1"><div class= "sc2"><span>Connect with us:</span>
     		<div class= "sc3"><a href="http://www.facebook.com"><div class="facebook-icon"></div></a>
 			<a href="http://www.twitter.com"><div class="twitter-icon"></div></a>
 			<a href="http://www.google.com"><div class="google-icon"></div></a>
-			<a href="http://www.instagram.com"><div class="instagram-icon"></div></a></div></div></div>';
+			<a href="http://www.instagram.com"><div class="instagram-icon"></div></a></div></div>';
 }
 }
 
