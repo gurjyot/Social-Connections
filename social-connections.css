@@ -1,43 +1,70 @@
 .sc1 {
+	width: 100%;
 	margin: 5px 0px;
 	background-color: #3498DB;
 	display: inline-block;
-	padding: 8px 10px;
-	width: 100%;
+	padding: 5px 10px;
+	border: 2px solid black;
 }
-.sc2{
+.sc2 {
 	float: right;
-	color: white;
+	border: 2px solid green;
 }
 .sc3 {
-	display: flex;
-	float: right;
+	color: white;
+	float: left;
+	border: 2px solid red;
+	padding: 5px  0px;
 }
-.sc3 .facebook-icon {
+.sc4 {
+	display: flex;
+	flex-direction: row;
+	/*width: 168px;*/
+	border: 2px solid yellow;
+}
+.sc4 .facebook-icon {
 	background-image: url(images/social-connections-icons.png);
 	height: 32px !important;
 	width: 32px;
 	background-position: 0 0;
-	padding: 0px 5px;
+	margin: 0px 5px;
 }
-.sc3 .twitter-icon {
+.sc4 .twitter-icon {
 	background-image: url(images/social-connections-icons.png);
 	height: 32px !important;
 	width: 32px;
 	background-position: -32px 0px;
-	padding: 0px 5px;
+	margin: 0px 5px;
 }
-.sc3 .google-icon {
+.sc4 .google-icon {
 	background-image: url(images/social-connections-icons.png);
 	height: 32px !important;
 	width: 32px;
 	background-position: -125px 0px;
-	padding: 0px 5px;
+	margin: 0px 5px;
 }
-.sc3 .instagram-icon {
+.sc4 .instagram-icon {
 	background-image: url(images/social-connections-icons.png);
 	height: 32px !important;
 	width: 32px;
 	background-position: -63px 0px;
-	padding: 0px 5px;
+	margin: 0px 5px;
+}
+@media only screen and (max-width: 320px){
+	.sc2 {
+		width: 100%;
+	}
+	.sc3{
+		width: 100%;
+		text-align: center;
+	}
+}
+@media only screen and (max-width: 400px){
+	.sc2 {
+		width: 100%;
+	}
+	.sc3{
+		width: 100%;
+		text-align: center;
+	}
 }
