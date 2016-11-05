@@ -22,10 +22,10 @@ class qa_social_connections_widget {
                             <span>Connect with us:</span>
                         </div>
         	                <div class= "sc4">
-                                <div class="facebook-icon"><a href="http://www.facebook.com" title="Like us on Facebook"></a></div>
-    			                <div class="twitter-icon"><a href="http://www.twitter.com" title="Follow us on Twitter"></a></div>
-    			                <div class="google-icon"><a href="http://www.google.com" title="Like us on Google+"></a></div>
-    			                <div class="instagram-icon"><a href="http://www.instagram.com" title="Follow us on Instagram"></a></div>
+                                <a href="http://www.facebook.com" title="Like us on Facebook"><div class="facebook-icon"></div></a>
+    			                <a href="http://www.twitter.com" title="Follow us on Twitter"><div class="twitter-icon"></div></a>
+    			                <a href="http://www.google.com" title="Like us on Google+"><div class="google-icon"></div></a>
+    			                <a href="http://www.instagram.com" title="Follow us on Instagram"><div class="instagram-icon"></div></a>
                             </div>
                     </div>
                 </div>';
