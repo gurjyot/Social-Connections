@@ -20,11 +20,11 @@ Features
 
 Installation
 ------------
--. Install Question2Answer[Q2A]
--. Get the source code for this plugin from github,
+1. Install Question2Answer[Q2A]
+1. Get the source code for this plugin from github,
    - To download directly, go to the `project page`[project] and click **Download**
 
--. Navigate to your site, go to **Admin -> Plugins** on your q2a install and enable the links in the option, then '**Save**'.
+1. Navigate to your site, go to **Admin -> Plugins** on your q2a install and enable the links in the option, then '**Save**'.
 
 Disclaimer
 ----------
