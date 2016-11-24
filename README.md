@@ -42,5 +42,5 @@ http://www.question2answer.org/
 
 
 [Copylefted]: http://en.wikipedia.org/wiki/Copyleft
-[project]: https://github.com/gurjyot/Social-Connections
-[Q2A]: http://www.question2answer.org/install.php
+['project page']: https://github.com/gurjyot/Social-Connections
+[Question2Answer]: http://www.question2answer.org/install.php
