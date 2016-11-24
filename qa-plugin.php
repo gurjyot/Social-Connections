@@ -11,3 +11,8 @@ qa_register_plugin_module(
   'qa_social_connections_widget', // module class name in that PHP file
   'Social Connections' // human-readable name of module
 );
+
+qa_register_plugin_phrases(
+    'qa-social-connections-lang-*.php', // pattern for language files
+    'plugin_sc' // prefix to retrieve phrases
+);

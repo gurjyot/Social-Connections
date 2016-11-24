@@ -1,13 +1,13 @@
 {
     "name": "Social-Connections",
-    "uri": "Web address for your plugin",
+    "uri": "https://github.com/gurjyot/Social-Connections",
     "description": "Connect your social accounts to your website",
-    "version": "0.1",
-    "date": "2016-04-07",
+    "version": "0.5",
+    "date": "2016-11-25",
     "author": "Gurjyot Singh",
     "author_uri": "Web address for plugin author",
     "license": "GPLv2",
-    "update_uri": "Web address for Q2A to check for updates",
+    "update_uri": "https://raw.githubusercontent.com/gurjyot/Social-Connections/master/metadata.json",
     "min_q2a": "1.7",
-    "min_php": "5.1"
+    "min_php": "5.2"
 }

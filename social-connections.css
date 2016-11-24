@@ -1,25 +1,22 @@
 .sc1 {
 	width: 100%;
 	margin: 5px 0px;
-	background-color: #3498DB;
+	background-color: #3498db;
 	display: inline-block;
-	padding: 5px 10px;
-	
+	padding: 0px 10px;
 }
 .sc2 {
 	float: right;
-	border: 2px solid red;
 }
 .sc3 {
 	color: white;
 	float: left;
-	padding: 5px  0px;
-	border: 2px solid green;
+	padding: 6px  0px;
 }
 .sc4 {
-	display: flex;
-	flex-direction: row;
-	border: 2px solid yellow;
+	float: right;
+}.sc4 td {
+	padding: 5px 0px;
 }
 a.sc4{
 	cursor: pointer;
@@ -52,6 +49,13 @@ a.sc4{
 	background-position: -63px 0px;
 	margin: 0px 5px;
 }
+.sc4 .pinterest-icon {
+	background-image: url(images/social-connections-icons.png);
+	height: 32px !important;
+	width: 32px;
+	background-position: -95px 0px;
+	margin: 0px 5px;
+}
 @media only screen and (max-width: 400px){
 	.sc2 {
 		width: 100%;
@@ -63,12 +67,5 @@ a.sc4{
 	}
 	.sc4 {
 		width: 100%;
-	}
-	.facebook-icon, .twitter-icon, .google-icon, .instagram-icon{
-		width: 25%;
-		border: 2px solid black;
-	}
-	.sc4 .facebook-icon, .sc4 .twitter-icon, .sc4 .google-icon, .sc4 .instagram-icon{
-		margin: 0px auto;
 	}
 }
