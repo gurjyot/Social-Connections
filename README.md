@@ -4,7 +4,7 @@ Question2Answer Social Connections 0.5
 
 Description
 -----------
-This is a plugin for **Question2Answer** which helps add a widget to link your website to social websites. 
+This is a plugin for **Question2Answer** which adds a widget, to add links of social accounts or pages of your website. 
 
 Features
 --------
