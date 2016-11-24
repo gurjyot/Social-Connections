@@ -22,7 +22,7 @@ Installation
 ------------
 1. Install [Question2Answer]
 1. Get the source code for this plugin from github,
-   - To download directly, go to the [`project page`] and click **Download**
+   - To download directly, go to the [project page] and click **Download**
 
 1. Navigate to your site, go to **Admin -> Plugins** on your q2a install and enable the links in the option, then '**Save**'.
 
@@ -42,5 +42,5 @@ http://www.question2answer.org/
 
 
 [Copylefted]: http://en.wikipedia.org/wiki/Copyleft
-['project page']: https://github.com/gurjyot/Social-Connections
+[project page]: https://github.com/gurjyot/Social-Connections
 [Question2Answer]: http://www.question2answer.org/install.php
