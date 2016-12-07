@@ -1,5 +1,5 @@
 ===========================
-Question2Answer Social Connections 0.5
+Social Connections
 ===========================
 
 Description
