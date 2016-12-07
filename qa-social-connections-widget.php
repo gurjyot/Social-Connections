@@ -1,5 +1,3 @@
-<link rel="stylesheet" type="text/css" href="<?php echo qa_path_to_root() ?>/qa-plugin/Social-Connections/social-connections.css">
-
 <?php
 
 class qa_social_connections_widget {
@@ -22,39 +20,39 @@ class qa_social_connections_widget {
     	$ins = qa_opt('sc_instagram_id');
     	$pin = qa_opt('sc_pinterest_id');
 
-        echo 	'<div class= "sc1">';
-        echo            '<div class= "sc2">';
-        echo                '<div class= "sc3">';
-        echo                '<span>'.qa_lang_html('plugin_sc/widget_title').'</span>';
-        echo                '</div>';
-        echo	                '<div class= "sc4">';
-        echo 						'<table>';
-        echo 							'<tr>';
+        $themeobject->output('<div class= "sc1">
+                    			<div class= "sc2">
+                    			<div class= "sc3">
+                       				<span>'.qa_lang_html('plugin_sc/widget_title').'</span>
+                      			</div>
+       	                		<div class= "sc4">
+       							<table>
+        							<tr>');
 
         if (qa_opt('enable_facebook')){
-        	echo '<td><a href="http://www.facebook.com/'.$fb.'" title="'.qa_lang_html('plugin_sc/facebook_tooltip').'"><div class="facebook-icon"></div></a></td>';
+        	$themeobject->output('<td><a href="http://www.facebook.com/'.$fb.'" title="'.qa_lang_html('plugin_sc/facebook_tooltip').'"><div class="facebook-icon"></div></a></td>');
     	}
 
     	if (qa_opt('enable_twitter')){
-    		echo '<td><a href="http://www.twitter.com/'.$tw.'" title="'.qa_lang_html('plugin_sc/twitter_tooltip').'"><div class="twitter-icon"></div></a></td>';
+    		$themeobject->output('<td><a href="http://www.twitter.com/'.$tw.'" title="'.qa_lang_html('plugin_sc/twitter_tooltip').'"><div class="twitter-icon"></div></a></td>');
     	}
 
     	if (qa_opt('enable_google')){
-    		echo '<td><a href="http://www.google.com/'.$goo.'" title="'.qa_lang_html('plugin_sc/google_tooltip').'"><div class="google-icon"></div></a></td>';
+    		$themeobject->output('<td><a href="http://www.google.com/'.$goo.'" title="'.qa_lang_html('plugin_sc/google_tooltip').'"><div class="google-icon"></div></a></td>');
     	}
 
     	if (qa_opt('enable_instagram')){
-    		echo '<td><a href="http://www.instagram.com/'.$ins.'" title="'.qa_lang_html('plugin_sc/instagram_tooltip').'"><div class="instagram-icon"></div></a></td>';
+    		$themeobject->output('<td><a href="http://www.instagram.com/'.$ins.'" title="'.qa_lang_html('plugin_sc/instagram_tooltip').'"><div class="instagram-icon"></div></a></td>');
     	}
 
     	if (qa_opt('enable_pinterest')){
-    		echo '<td><a href="http://www.pinterest.com/'.$pin.'" title="'.qa_lang_html('plugin_sc/pinterest_tooltip').'"><div class="pinterest-icon"></div></a></td>';
+    		$themeobject->output('<td><a href="http://www.pinterest.com/'.$pin.'" title="'.qa_lang_html('plugin_sc/pinterest_tooltip').'"><div class="pinterest-icon"></div></a></td>');
     	}
-    	echo 							'</tr>';
-    	echo 						'</table>';
-        echo                    '</div>';
-        echo            '</div>';
-        echo        '</div>';
+    				$themeobject->output('</tr>
+    	 						</table>
+                            </div>
+                    </div>
+                </div>');
     }
 
     function admin_form(&$qa_content)

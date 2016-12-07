@@ -16,3 +16,8 @@ qa_register_plugin_phrases(
     'qa-social-connections-lang-*.php', // pattern for language files
     'plugin_sc' // prefix to retrieve phrases
 );
+
+qa_register_plugin_layer(
+  'qa-social-connections-layer.php', // PHP file containing layer
+  'Social Connections Layer' // human-readable name of layer
+);
